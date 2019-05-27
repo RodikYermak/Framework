@@ -1,0 +1,63 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+.logo,
+nav {
+    width: 50%
+}
+nav {
+    display: none;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+main {
+    background-color: transparent;
+}
+.background {
+    background: url(../images/whaleShark01.jpg) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+}
+footer {
+    display: flex;
+    background-color: aquamarine;
+}
+.social {
+    background-color: yellow;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+@media screen and (min-width: 321px) {
+    nav {
+        display: block;
+    }
+}
+
+/*
+nav ul {
+    justify-content: space-between;
+}*/

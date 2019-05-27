@@ -1,0 +1,196 @@
+$primary-color: #444;
+$secondary-color: #eece1a;
+//@mixin easeOut {
+//    transition: all .5s ease-out;
+//   
+// GLOBAL STYLES
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 10px;
+    height: 100%;
+}
+a {
+    color: $primary-color;
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    padding: 1rem;
+    background-color: aquamarine;
+}
+img {
+    margin: 0 auto;
+    max-width: 100%;
+}
+//-----------------------------
+// HOME PAGE STYLES
+// MENU STYLES
+// Menu Button
+.menu-btn {
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+    position: absolute;
+    right: 35px;
+    top: 35px;
+    z-index: 3;
+}
+.menu-btn .btn-line {
+    background: $primary-color;
+    height: 3px;
+    transition: all 0.5s ease-out;
+    margin: 0 0 5px 0;
+    width: 28px;
+}
+.menu-btn.close {
+    transform: rotate(180deg);
+}
+.menu-btn.close .btn-line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-btn.close .btn-line:nth-child(2) {
+    opacity: 0;
+}
+.menu-btn.close .btn-line:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+// Menu Overlay
+.menu {
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    visibility: hidden;
+    width: 100%;
+}
+.menu.show {
+    visibility: visible;
+}
+.logo,
+nav {
+    width: 50%;
+}
+//WHY DO I HAVE THIS?
+//nav {
+//    display: none;
+//}
+//NEED THIS FOR DESKTOP 
+//ul {
+//    display: flex;
+//    justify-content: space-between;
+//    text-transform: uppercase;
+//}
+.menu-nav {
+    align-items: center;
+    display: flex;
+    float: left;
+    flex-flow: column wrap;
+    height: 100vh;
+    justify-content: center;
+    overflow: hidden;
+    width: 50%;
+}
+.menu-nav {
+    background: #373737;
+    transition: all .5s ease-out;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    transform: translate3d(0, -100%, 0);
+}
+ul.menu-nav {
+    float: none;
+    min-height: 0;
+    width: 100%;
+}
+ul.menu-nav.show {
+    transform: translate3d(0, 0, 0);
+}
+.menu-nav {
+    font-size: 24px;
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+}
+.menu-nav.show {
+    // Slide in from top
+    transform: translate3d(0, 0, 0);
+}
+// Nav
+.menu .nav-item {
+    transition: all 0.5s ease-out;
+    transform: translate3d(600px, 0, 0);
+}
+.menu .nav-item.show {
+    //Slide in from right
+    transform: translate3d(0, 0, 0);
+}
+.menu .nav-item.current > a {
+    color: $secondary-color;
+}
+.menu .nav-link {
+    color: $primary-color;
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 300;
+    transition: all .5s ease-out;
+    position: relative;
+    padding: 1rem 0;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.menu .nav-link:hover {
+    color: $secondary-color;
+}
+//Delay each nav item slide by 0.1s
+//@for $x from 1 through 4 {
+//    .nav-item:nth-child(#{$x}) {
+//        transition-delay: $x * 0.1s;
+//    }
+//}
+.nav-item:nth-child(1) {
+    transition-delay: 0.1s;
+}
+.nav-item:nth-child(2) {
+    transition-delay: 0.2s;
+}
+.nav-item:nth-child(3) {
+    transition-delay: 0.3s;
+}
+.nav-item:nth-child(4) {
+    transition-delay: 0.4s;
+}
+//----------------------
+main {
+    background-color: transparent;
+}
+.background {
+    background: url(../images/whaleShark01.jpg) no-repeat center;
+    background-size: cover;
+    height: 50vh;
+}
+footer {
+    display: flex;
+    background-color: aquamarine;
+}
+.social {
+    background-color: yellow;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+// DESKTOP MEDIA QUERY
+//        @media screen and (min-width: 321px) {
+//        nav {
+//            display: block;
+//        }
+//    }
+//    
+//nav ul {
+//justify-content: space-between;
+//}

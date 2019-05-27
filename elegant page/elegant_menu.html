@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>
+    Menus</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- fontawesome social media icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    
+    <!-- link to google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Meddon|Monofett|Special+Elite&display=swap" rel="stylesheet">
+    
+    <!-- CSS link to Scss-->
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- link vincents.css -->
+    <link rel="stylesheet" href="elegant.css">
+
+</head>
+<body>
+   <div class="elegant-floral"> 
+   
+   <header>
+<!-- restaurant icon -->
+       <div class="logo"><a href="elegant.html"><img src="../images/new_logo_2019.png" alt="floral background"></a></div>
+       
+<!-- hamburger for mobile only -->
+       <div class="menu-btn">
+           <div class="btn-line"></div>
+           <div class="btn-line"></div>
+           <div class="btn-line"></div>
+       </div>
+       
+<!-- regular nav menu -->
+       <nav class="menu">
+           <ul class="menu-nav">
+               <li class="nav-item current">
+                   <a href="elegant.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item current">
+                   <a href="reservations.html" class="nav-link">Reservations</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="elegant_menu.html" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="order.html" class="nav-link">Order Online</a>
+               </li>
+               <li class="nav-item current">
+                   <a href="about.html" class="nav-link">About</a>
+               </li>
+           </ul>
+       </nav>
+</header>
+
+   <main>
+<!-- background behind main area only --> 
+    <div id="wrapper">
+       
+<!-- restaurant information --> 
+
+    <div id="menu">
+        <h1 class="lg-heading">Vincent's</h1>
+        <h2 class="med-heading">Dinner Menu</h2>
+
+           <form id="filterboxes">
+               <h3 class="sm-heading">At Vincent's, we care about the health of our guests.<br>For those with particular diets or allergies, you can select to see only those dishes:</h3>
+               <input type="checkbox" data-show="veg" id="filterbox"><label for="filterbox">Vegan or Vegetarian</label>
+               <input type="checkbox" data-show="glutenfree" id="filterbox"><label for="filterbox">Gluten Free</label>
+               <input type="checkbox" data-show="keto" id="filterbox"><label for="filterbox">Keto</label>
+               <input type="checkbox" data-show="nutfree" id="filterbox"><label for="filterbox">Nut Free</label>
+               
+           </form>
+
+           <p class="menu-item veg glutenfree" style=""><span class="glutenfree symbol">G</span><span class="veg symbol">V</span>
+               <i>$4.50</i>
+               Broccoli
+               <em>Broccoli with some butter or whatever</em>
+           </p>
+           
+        <p class="menu-item veg" style=""><span class="veg symbol">V</span>
+               <i>$7.00</i>
+               Beer
+               <em>Hops and barley or whatever</em>
+           </p>
+        <p class="menu-item meat glutenfree" style=""><span class="glutenfree symbol">G</span>
+               <i>$6.50</i>
+               Hamburgers
+               <em>Topped with ketchup and mustard only. All other topping 50¢ each.</em>
+           </p>
+        <p class="menu-item meat" style="">
+               <i>$8.00</i>
+               Hot Dogs
+               <em>Made from real dogs!</em>
+           </p>
+        <p class="menu-item veg" style=""><span class="veg symbol">V</span>
+               <i>$0.50</i>
+               Carrots
+               <em>These are just carrots</em>
+           </p>
+
+           <div class="legend">
+           
+            <span class="veg"><span class="veg symbol">V</span>Vegan or Vegetarian</span>
+            
+            | <span class="glutenfree"><span class="glutenfree symbol">G</span>Gluten Free</span>
+            
+            | <span class="keto"><span class="keto symbol">K</span>Keto</span>
+            
+            | <span class="nutfree"><span class="nutfree symbol">N</span>Nut Free</span>
+            
+            </div>
+       </div>
+    
+<!-- main buttons --> 
+    <div class="buttons">
+        <a href="pages/reservations.html">Reservations</a>
+        <a href="pages/menu.html">Menu</a>
+        <a href="pages/order.html">Order online</a>
+    </div>
+    
+   </main>
+   <footer class="social">
+        <a href="https://www.facebook.com">
+            <i class="fab fa-facebook-square"></i>
+        </a>
+        <a href="https://twitter.com/">
+            <i class="fab fa-twitter-square"></i>
+        </a>
+        <a href="https://www.instagram.com/">
+            <i class="fab fa-instagram"></i>
+        </a>
+       <a href="https://www.yelp.com/">
+            <i class="fab fa-yelp"></i>
+        </a>
+       <a href="https://www.youtube.com/"><i class="fab fa-youtube-square"></i></a>
+       
+       
+       <p>&copy; 2019 MENUS</p>
+   </footer>
+    
+<!-- Optional JavaScript -->
+<!--<script aria-activedescendant=""src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+    
+<!-- hamburger javascript -->
+<script src="../scripts/main.js"></script>
+
+<script src="elegant_menu.js"></script>
+    </div>
+</body>
+</html>

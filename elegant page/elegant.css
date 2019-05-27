@@ -1,0 +1,71 @@
+body {
+  background: url("images/floral_wallpaper.jpg") no-repeat center center fixed;
+  background-size: cover;
+  font-size: 16px;
+  line-height: 110%; }
+
+#wrapper {
+  background: url("images/Natural-Parchmnet-Card-1.jpg") no-repeat center center fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: 80%;
+  margin: auto 0; }
+
+div#menu {
+  text-align: center;
+  margin-bottom: 50px; }
+
+.lg-heading,
+med-heading,
+sm-heading {
+  padding: 0;
+  margin: 0; }
+
+.lg-heading {
+  font-family: 'Meddon', cursive;
+  font-size: 5rem;
+  margin: 50px 0 0 0; }
+
+.med-heading {
+  font-family: 'Meddon', cursive;
+  font-size: 2rem;
+  margin: 50px 0 50px 0; }
+
+.sm-heading,
+p,
+i,
+em,
+label,
+span {
+  font-family: 'Special Elite', cursive;
+  font-size: 1rem; }
+
+.symbol {
+  font-family: 'Monofett', cursive;
+  padding-right: 2px; }
+
+form {
+  background-color: chocolate;
+  padding: 10px;
+  color: white; }
+
+input {
+  margin-right: 5px; }
+
+.menu-item {
+  margin-top: 10px; }
+
+i,
+.menu-item,
+em {
+  font-size: 2rem; }
+
+span.vegan.symbol,
+span.veg.symbol,
+span.glutenfree.symbol,
+span.keto.symbol,
+span.nutfree.symbol {
+  font-size: 2rem; }
+
+/*# sourceMappingURL=elegant.css.map */
