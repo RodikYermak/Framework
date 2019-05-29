@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    
+    <title>Navigation Menu New</title>
+    
+    <style>
+        .hide {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+        .sideNav {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            background-color: black;
+            position: absolute;
+            right: 100vw;
+        }
+    </style>
+    
+    <script>
+        $(function(){
+            
+            $('.open').click(function(toggleMenu){
+        
+            });
+        
+            function toggleMenu() {
+//                event.preventDefault();
+                $('.sideNav').toggleClass('show').animate({left:'0'});
+            };    
+        });
+    </script>
+</head>
+<body>
+    <nav>
+        <div>
+            <a href="#" class="open">O</a>
+            <a href="#" class="close">&times;</a>
+        </div>
+        <div class="sideNav">
+            <a href="#">Home</a>
+            <a href="#">Menu</a>
+            <a href="#">Reservations</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <header>
+        
+    </header>
+</body>
+</html>

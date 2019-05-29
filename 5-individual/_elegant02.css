@@ -1,0 +1,79 @@
+/* ELEGANT BAR*/
+
+/*<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700|Pacifico|Sorts+Mill+Goudy:400,400i&display=swap" rel="stylesheet">*/
+
+/*GLOBAL*/
+
+.responsive {
+    width: 100%
+}
+.responsiveImage {
+    max-width: 100%;
+    margin: 0 auto;
+}
+.white {
+    color: white;
+}
+.black {
+    color: black;
+}
+.transparent {
+    background-color: transparent;
+}
+.opacityLess {
+    opacity: .8;
+}
+.opacityHalf {
+    opacity: .5;
+}
+.grayOut {
+    filter: grayscale(100%);
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+
+/* ELEGANT */
+
+.title {
+    font-family: 'Pacifico', cursive;
+    font-size: 3.6rem;
+}
+.subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+}
+.menuTitle {
+    font-family: 'Pacifico', cursive;
+    font-size: 1.8rem;
+}
+.menuAlternate {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.8rem
+}
+.paragraph {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.4rem
+}
+.backgroundLight {
+    background-color: white;
+/*    background: url();*/
+}
+.backgroundDark {
+        background-color: black;
+/*    background: url();*/
+}
+button {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-size: 1.8rem;
+}
+border {
+    border: solid 2px black;
+}
+fontLarge {
+    font-size: 1.4em;
+}
+fontXL {
+    font-size: 2.2em;
+}
