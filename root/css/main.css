@@ -1,300 +1,79 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
-@import url("https://fonts.googleapis.com/css?family=Ranga|Roboto&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lobster&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Oxygen&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Meddon|Special+Elite&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Pacifico|Sorts+Mill+Goudy&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline; }
-
-html {
-  font-size: 10px; }
-
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
-
-body {
-  line-height: 1.4; }
-
-.responsive {
-  width: 100%; }
-
-.responsiveImage {
-  max-width: 100%;
-  margin: 0 auto; }
-
-.responsiveGrid {
-  display: flex; }
-
-.gridFull {
-  flex: 1; }
-
-.gridHalf {
-  flex: 2; }
-
-.gridThird {
-  flex: 3; }
-
-.gridFourth {
-  flex: 4; }
-
-.gridHorizontal {
-  flex-direction: row; }
-
-.gridVertical {
-  flex-direction: column; }
-
-.fontOpenSans {
-  font-family: "Open Sans", sans-serif; }
-
-.fontRanga {
-  font-family: "Ranga", cursive; }
-
-.fontRoboto {
-  font-family: "Roboto", sans-serif; }
-
-.fontPacifico {
-  font-family: "Pacifico", cursive; }
-
-.fontMontserrat {
-  font-family: "Montserrat", sans-serif; }
-
-.fontMillGoudy {
-  font-family: "Sorts Mill Goudy", serif; }
-
-.fontLobster {
-  font-family: "Lobster", serif; }
-
-.fontOxygen {
-  font-family: "Oxygen", sans-serif; }
-
-.fontSpecialElite {
-  font-family: "Special Elite", cursive; }
-
-.fontMeddon {
-  font-family: "Meddon", cursive; }
-
-.fontXSmall {
-  font-size: 1rem; }
-
-.fontSmall {
-  font-size: 1.2rem; }
-
-.fontMedium {
-  font-size: 1.8rem; }
-
-.fontLarge {
-  font-size: 2rem; }
-
-.fontXLarge {
-  font-size: 3rem; }
-
-.red {
-  color: red; }
-
-.black {
-  color: black; }
-
-.white {
-  color: white; }
-
-.blue {
-  color: blue; }
-
-.yellow {
-  color: yellow; }
-
-.green {
-  color: green; }
-
-.purple {
-  color: purple; }
-
-.pink {
-  color: pink; }
-
-body {
-  background: #bfdbf0;
-  color: #333;
-  font-family: "Open Sans", sans-serif;
-  font-size: 14px; }
-
-b,
-em,
-i,
-small,
-strong,
-sub,
-sup,
-ins,
-del,
-mark,
-abbr,
-address,
-blockquote,
-li {
-  display: inline; }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: #031f3b;
-  font-family: "Roboto", sans-serif;
-  font-variant: small-caps;
-  font-weight: 400;
-  margin-top: 0.25em;
-  margin-bottom: 0.25em;
-  margin-left: 0;
-  margin-right: 0; }
-
-h1 {
-  font-size: 111px; }
-
-h2 {
-  font-size: 69px; }
-
-h3 {
-  font-size: 42px; }
-
-h4 {
-  font-size: 26px; }
-
-h5 {
-  font-size: 16px; }
-
-h6 {
-  font-size: 10px; }
-
-p {
-  margin-bottom: 0.75em; }
-
-img.image-responsive {
-  max-width: 100%;
-  height: auto; }
-
-.uppercase {
-  text-transform: uppercase; }
-
-.lowercase {
-  text-transform: lowercase; }
-
-.capitalize {
-  text-transform: capitalize; }
-
-.bold {
-  font-weight: bold; }
-
-.italic {
-  font-style: italic; }
-
-table.stripped {
-  border-collapse: collapse; }
-  table.stripped th, table.stripped td {
-    text-align: left;
-    padding: 8px; }
-  table.stripped tr:nth-child(even) {
-    background-color: #0142a8;
-    color: #fff; }
-
-table.bordered td, table.bordered th {
-  border: 1px solid #333; }
-
-table.responsive {
-  width: 100%; }
-
-input[type=text], select, textarea {
-  width: 90%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical; }
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block; }
-
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right; }
-
-input[type=submit]:hover {
-  background-color: #45a049; }
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px; }
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px; }
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px; }
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-header {
-  border-radius: 100%;
-  height: 200px;
-  width: 200px;
-  line-height: 200px;
-  text-align: center;
-  margin: 0 auto;
-  background: url(../images/dive.jpg) no-repeat center center #0142a8;
-  color: white; }
-  header h1 {
-    display: none;
-    line-height: 1;
-    padding-top: 40%; }
-
-article {
-  background: white;
-  width: 960px;
-  margin: -60px auto 0;
-  padding: 40px;
-  box-sizing: border-box;
-  border-radius: 2em 0 2em 0;
-  position: relative;
-  z-index: -2; }
-
-footer {
-  border-radius: 100%;
-  height: 150px;
-  width: 150px;
-  position: relative;
-  z-index: -4;
-  text-align: center;
-  margin: -60px auto 0;
-  background: #333;
-  color: #bfdbf0;
-  font-size: 11px; }
-  footer p {
-    padding: 70px 15px 10px; }
-
-img.rightside {
-  float: right;
-  width: 40%;
-  margin: 0 0 0.5em 0.5em; }
-
-/*# sourceMappingURL=main.css.map */
+/*
+Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 85 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass
+        from line 7 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass
+        from line 6 of C:\Users\imasi\Desktop\Framework\root\sass\main.sass
+
+80: .nav .overlay ul li a:hover,
+81: .nav .overlay ul li a .active:hover 
+82: 	color: black
+83: 
+84: @media (min-width: 769px)
+85:     .menu
+86:         display: none
+87: //    .menu
+88: //        display: none
+89: //    .nav
+90: //        display: flex
+
+Backtrace:
+C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass:85
+C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass:7
+C:\Users\imasi\Desktop\Framework\root\sass\main.sass:6
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
+C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
+C:/Program Files (x86)/Koala/bin/sass:22:in `load'
+C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 85 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass\A         from line 7 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass\A         from line 6 of C:\Users\imasi\Desktop\Framework\root\sass\main.sass\A \A 80: .nav .overlay ul li a:hover,\A 81: .nav .overlay ul li a .active:hover \A 82: 	color: black\A 83: \A 84: @media (min-width: 769px)\A 85:     .menu\A 86:         display: none\A 87: //    .menu\A 88: //        display: none\A 89: //    .nav\A 90: //        display: flex"; }

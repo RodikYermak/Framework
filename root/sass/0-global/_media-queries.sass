@@ -24,3 +24,25 @@ $breakpoint-hd: 2000px
 @mixin hd
     @media only screen and (max-width: $breakpoint-hd)
         @content
+
+// MIN
+
+@mixin mobile-min
+    @media only screen and (min-width: $breakpoint-mobile)
+        @content
+
+@mixin tablet-min     
+    @media only screen and (min-width: $breakpoint-tablet)
+        @content
+
+@mixin desktop-min
+    @media only screen and (min-width: $breakpoint-desktop)
+        @content
+
+@mixin widescreen-min
+    @media only screen and (min-width: $breakpoint-widescreen)
+        @content
+
+@mixin hd-min
+    @media only screen and (min-width: $breakpoint-hd)
+        @content
