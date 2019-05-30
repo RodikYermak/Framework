@@ -1,0 +1,37 @@
+// RESPONSIVE
+.responsive {
+	width: 100%;
+}
+
+.responsiveImage {
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.responsiveGrid {
+	display: flex;
+}
+
+.gridFull {
+	flex: 1;
+}
+
+.gridHalf {
+	flex: 2;
+}
+
+.gridThird {
+	flex: 3;
+}
+
+.gridFourth {
+	flex: 4;
+}
+
+.gridHorizontal {
+	flex-direction: row;
+}
+
+.gridVertical {
+	flex-direction: column;
+}

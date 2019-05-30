@@ -1,0 +1,9 @@
+// LAYOUTS
+// major page components
+// pulls in all layout files
+// headers, footers, sidebars, articles, using id and classes selectors
+
+@import "header";
+@import "articles";
+@import "footer";
+@import "grid";
