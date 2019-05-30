@@ -1,79 +1,83 @@
-/*
-Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 4 spaces.
-        on line 20 of C:/Users/imasi/Desktop/Framework-experimental/Framework-experimental/root/sass/2-base/_headings.sass
-        from line 6 of C:/Users/imasi/Desktop/Framework-experimental/Framework-experimental/root/sass/2-base/_base-dir.sass
-        from line 4 of C:\Users\imasi\Desktop\Framework-experimental\Framework-experimental\root\sass\main.sass
+/*ISAAC VERSION*/
 
-15:     margin-left: 0
-16:     margin-right: 0
-17: 
-18: 
-19: h1
-20: 	font-size: 111px
-21: 
-22: 
-23: h2
-24: 	font-size: 69px
-25: 
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
 
-Backtrace:
-C:/Users/imasi/Desktop/Framework-experimental/Framework-experimental/root/sass/2-base/_headings.sass:20
-C:/Users/imasi/Desktop/Framework-experimental/Framework-experimental/root/sass/2-base/_base-dir.sass:6
-C:\Users\imasi\Desktop\Framework-experimental\Framework-experimental\root\sass\main.sass:4
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `each_with_index'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:452:in `tabulate'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:417:in `_to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:321:in `to_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block (2 levels) in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:329:in `block in visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `block in with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:88:in `with_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `block in with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:135:in `with_frame'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/stack.rb:79:in `with_base'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:162:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:161:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:391:in `run'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:52:in `parse'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/exec/base.rb:19:in `parse!'
-C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/bin/sass:13:in `<top (required)>'
-C:/Program Files (x86)/Koala/bin/sass:22:in `load'
-C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Inconsistent indentation: 1 tab was used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 20 of C:/Users/imasi/Desktop/Framework-experimental/Framework-experimental/root/sass/2-base/_headings.sass\A         from line 6 of C:/Users/imasi/Desktop/Framework-experimental/Framework-experimental/root/sass/2-base/_base-dir.sass\A         from line 4 of C:\Users\imasi\Desktop\Framework-experimental\Framework-experimental\root\sass\main.sass\A \A 15:     margin-left: 0\A 16:     margin-right: 0\A 17: \A 18: \A 19: h1\A 20: 	font-size: 111px\A 21: \A 22: \A 23: h2\A 24: 	font-size: 69px\A 25: "; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1.4; }
+
+body {
+  background: #bfdbf0;
+  color: #333;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px; }
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 0.5em;
+  color: #0142a8; }
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 0.25em; }
+
+p {
+  margin-bottom: 0.75em; }
+
+img {
+  border-radius: 0.75em;
+  box-shadow: 3px 3px 8px #031f3b; }
+
+header {
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  line-height: 200px;
+  text-align: center;
+  margin: 0 auto;
+  background: url(../images/dive.jpg) no-repeat center center #0142a8;
+  color: white; }
+  header h1 {
+    display: none;
+    line-height: 1;
+    padding-top: 40%; }
+
+article {
+  background: white;
+  width: 960px;
+  margin: -60px auto 0;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 2em 0 2em 0;
+  position: relative;
+  z-index: -2; }
+
+footer {
+  border-radius: 100%;
+  height: 150px;
+  width: 150px;
+  position: relative;
+  z-index: -4;
+  text-align: center;
+  margin: -60px auto 0;
+  background: #333;
+  color: #bfdbf0;
+  font-size: 11px; }
+  footer p {
+    padding: 70px 15px 10px; }
+
+img.rightside {
+  float: right;
+  width: 40%;
+  margin: 0 0 0.5em 0.5em; }
+
+/*# sourceMappingURL=main.css.map */
