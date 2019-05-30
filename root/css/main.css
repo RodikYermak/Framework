@@ -1,23 +1,23 @@
 /*
-Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.
-        on line 85 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass
+Error: Inconsistent indentation: 8 spaces were used for indentation, but the rest of the document was indented using 1 tab.
+        on line 88 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass
         from line 7 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass
         from line 6 of C:\Users\imasi\Desktop\Framework\root\sass\main.sass
 
-80: .nav .overlay ul li a:hover,
-81: .nav .overlay ul li a .active:hover 
-82: 	color: black
 83: 
 84: @media (min-width: 769px)
-85:     .menu
-86:         display: none
-87: //    .menu
-88: //        display: none
-89: //    .nav
-90: //        display: flex
+85: 	.menu
+86: 		display: none
+87: 	.nav
+88:         display: flex
+89:         padding: 2rem 10rem 0
+90:         justify-content: space-between
+91:     .overlay
+92:         position: initial
+93:         background: none
 
 Backtrace:
-C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass:85
+C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass:88
 C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass:7
 C:\Users\imasi\Desktop\Framework\root\sass\main.sass:6
 C:/Program Files (x86)/Koala/rubygems/gems/sass-3.5.2/lib/sass/engine.rb:494:in `block in tabulate'
@@ -76,4 +76,4 @@ C:/Program Files (x86)/Koala/bin/sass:22:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Inconsistent indentation: 4 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 85 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass\A         from line 7 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass\A         from line 6 of C:\Users\imasi\Desktop\Framework\root\sass\main.sass\A \A 80: .nav .overlay ul li a:hover,\A 81: .nav .overlay ul li a .active:hover \A 82: 	color: black\A 83: \A 84: @media (min-width: 769px)\A 85:     .menu\A 86:         display: none\A 87: //    .menu\A 88: //        display: none\A 89: //    .nav\A 90: //        display: flex"; }
+  content: "Error: Inconsistent indentation: 8 spaces were used for indentation, but the rest of the document was indented using 1 tab.\A         on line 88 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_navigation.sass\A         from line 7 of C:/Users/imasi/Desktop/Framework/root/sass/4-modules/_modules-dir.sass\A         from line 6 of C:\Users\imasi\Desktop\Framework\root\sass\main.sass\A \A 83: \A 84: @media (min-width: 769px)\A 85: 	.menu\A 86: 		display: none\A 87: 	.nav\A 88:         display: flex\A 89:         padding: 2rem 10rem 0\A 90:         justify-content: space-between\A 91:     .overlay\A 92:         position: initial\A 93:         background: none"; }
